@@ -2,7 +2,7 @@ x86
 
 1. download from https://downloads.mysql.com/archives/c-c/
 
-> mysql-connector-c-6.1.11-win32.msi
+    > mysql-connector-c-6.1.11-win32.msi
 
 2. I install to default path (C:\Program Files (x86)\MySQL\MySQL Connector C 6.1)
 
@@ -10,7 +10,7 @@ x86
 
     - cd $QTDIR\Src\qtbase\src\plugins\sqldrivers
     
-    > my path is D:\Qt5.14.2\5.14.2\Src\qtbase\src\plugins\sqldrivers
+        > my path is D:\Qt5.14.2\5.14.2\Src\qtbase\src\plugins\sqldrivers
     
     - qmake sqldrivers.pro
     
@@ -36,8 +36,8 @@ x86
         
         - find qsqlmysql.dll in $QTDIR\Src\qtbase\src\plugins\sqldrivers\plugins\sqldrivers
         
-        > my path is D:\Qt5.14.2\5.14.2\Src\qtbase\src\plugins\sqldrivers\plugins\sqldrivers
+            > my path is D:\Qt5.14.2\5.14.2\Src\qtbase\src\plugins\sqldrivers\plugins\sqldrivers
         
         - copy qsqlmysql.dll to $QTDIR\mingw73_32\plugins\sqldrivers
         
-        > my path is D:\Qt5.14.2\5.14.2\mingw73_32\plugins\sqldrivers
+            > my path is D:\Qt5.14.2\5.14.2\mingw73_32\plugins\sqldrivers
